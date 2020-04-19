@@ -1,0 +1,40 @@
+Syntax rules for using the single-variable polynomial derivative calculator:
+
+1) no division, use negative exponents. (Also don't put -x, you can put -1x instead)
+	ex: 
+		don't do: 
+			(5x / (x - 10)) 
+		do: 
+			(5x * (x - 10)^-1)
+
+2) remember to only use lowercase 'x'! (no quotes)
+	ex: 
+		don't do: 
+			(5X * (X - 10)) 
+		do: 
+			(5x * (x - 10))
+
+3) leave parentheses on the outside of your input expression
+	ex: 
+		don't do: 
+			5x * (x + 10) 
+		do: 
+			(5x * (x - 10))
+
+4) use parentheses to group the '+'s together and the '*'s together, the program will tell you that it expected a certain symbol when you don't
+	ex: 
+		don't do: 
+			(5x * (x - 10) + x^2) 
+		do: 
+			((5x * (x - 10)) + x^2)
+
+5) don't forget to specify the number of expressions you want to take the derivative of!
+	ex: 
+		don't do:
+		(5x * (x - 10))
+
+		do:
+		1
+		(5x * (x - 10))
+
+

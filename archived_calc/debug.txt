@@ -1,0 +1,292 @@
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+3 0
+Simplified expression: checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+3 0
+(checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) * checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10))
+
+
+
+
+
+
+
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+10x 0
+2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+2x 0
+2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+2x 0
+2
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+10x 0
+2
+checking equality of adding
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+2x 0
+2
+(checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) * 2x) 2
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+10x 0
+2
+(checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) * 10x) 2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+3 0
+5 0
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+3 0
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+(x^2 + -10) 2
+10x 0
+2
+checking equality of adding
+x^2 0
+-10 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+checking equality of adding
+10x 0
+1 0
+1.5 false
+(10x + 1) 2
+2x 0
+2
+checking equality of adding
+10x 0
+1 0
+1.5 false
+checking equality of multiplying
+100x^2 0
+x^-1 0
+1
+checking equality of multiplying
+x^5 0
+100x 0
+1
+Simplified expression: 100x^6
+
+
+
+
+
+
+

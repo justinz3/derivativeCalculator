@@ -1,0 +1,27 @@
+{% extends "master.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    <main>
+        <a href = "{{ url_for('calculator') }}"> Derivative Calculator</a>
+        <br>
+        
+        <a href = "{{ url_for('practice') }}"> Practice Derivatives</a>
+        <br>
+    </main>
+    
+    
+
+{% endblock %}
+
+{% block footer %}
+
+    <a href = "{{ url_for('index') }}"> Log Out</a>
+    <br>
+    
+    <a href = "{{ url_for('delete_account') }}"> Delete Account</a>
+    <br>
+
+{% endblock %}

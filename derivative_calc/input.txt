@@ -1,0 +1,10 @@
+
+2
+
+((10x * (x + 1) * 2) * (x^2 - 10))
+
+(8(6x^2 + -9)^3 * 12x)
+
+Be sure to read the instructions before to make sure your input is correct!
+
+Note: it will only read the number of expressions specified, so you can put whatever after them.

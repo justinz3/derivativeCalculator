@@ -1,0 +1,42 @@
+{% extends "master.html" %}
+
+{% block title %}Create Account{% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('create_account') }}" method=post>
+
+        Username:
+        <input type="text" name="username"> <br>
+
+        Password:
+        <input type="password" name="password"> <br>
+
+        Enter Password Again:
+        <input type="password" name="password2"> <br>
+        
+        Name:
+        <input type="text" name="name"> <br>
+        
+        Email:
+        <input type="text" name="email"> <br>
+
+        <button type="submit">Create Account</button>
+
+    </form>
+
+    <main>
+        {{error_message}}
+    </main>
+    
+
+
+{% endblock %}
+
+{% block footer %}
+
+    <p>
+        <a href = "{{ url_for('index') }}"> Back to Login</a><br>
+    </p>
+
+{% endblock %}

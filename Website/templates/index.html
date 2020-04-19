@@ -1,0 +1,41 @@
+{% extends "master.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('index') }}" method=post>
+
+        Username:
+        <input type="text" name="username"> <br>
+
+        Password:
+        <input type="password" name="password"> <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    
+    <main>
+        
+        <a href = "{{ url_for('forgot_password') }}">Forgot Password?</a>
+        
+        <br>
+        <br>
+    
+        {{error_message}}
+        
+    </main>
+    
+    
+
+{% endblock %}
+
+{% block footer %}
+
+    <p>
+        New to this site? <br>
+        Click <a href = "{{ url_for('create_account') }}"> here</a> to create a new account. <br>
+    </p>
+
+{% endblock %}

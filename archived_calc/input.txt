@@ -1,0 +1,9 @@
+2
+
+((10x + 1) * (x^2 - 10))
+
+(100x^2 * x ^ 5 * x ^ -1)
+
+Be sure to read the instructions before to make sure your input is correct!
+
+Note: it will only read the number of expressions specified, so you can put whatever after them.

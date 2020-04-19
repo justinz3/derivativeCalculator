@@ -1,0 +1,27 @@
+{% extends "master.html" %}
+
+{% block title %}Select Problem Type{% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('practice') }}" method=post>
+
+        Choose a problem type:<br>
+        <input type="radio" name="problem_type" value="1"> Power Rule<br>
+        <input type="radio" name="problem_type" value="2"> Chain Rule<br>
+        <input type="radio" name="problem_type" value="3"> Product Rule<br>
+        <input type="radio" name="problem_type" value="4"> Chain + Product Rules<br>
+        
+        <button type="submit">Generate Problem</button>
+
+    </form>
+
+{% endblock %}
+
+{% block footer %}
+
+    <p>
+        <a href = "{{ url_for('menu') }}"> Menu</a> <br>
+    </p>
+
+{% endblock %}

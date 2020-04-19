@@ -1,0 +1,52 @@
+{% extends "master.html" %}
+
+{% block title %}Practice Derivatives{% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('practice') }}" method=post>
+
+        Take the Derivative of the expression: {{problem}}
+        <br>
+
+        Your Answer:
+        <input type="text" name="expression"> <br>
+
+    </form>
+    
+    <main>
+        
+        {{result}}
+        <br>
+        
+        {% if expression != "" %}
+        
+            Your answer:
+            {{expression}}
+            <br>
+        
+        {% endif %}
+        
+        {% if answer != "" %}
+        
+            Our answer:
+            {{answer}}
+            <br>
+        
+        {% endif %}
+        
+    </main>
+    
+    
+
+{% endblock %}
+
+{% block footer %}
+
+    <p>
+        <a href = "{{ url_for('menu') }}"> Menu</a> <br>
+        
+        <a href = "{{ url_for('practice') }}"> Next Problem</a> <br>
+    </p>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "master.html" %}
+
+{% block title %}Derivative Calculator{% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('calculator') }}" method=post>
+
+        Expression:
+        <input type="text" name="expression"> <br>
+
+    </form>
+    
+    <main>
+    
+        {% if expression != "" %}
+        
+            Input:
+            {{expression}}
+            <br>
+            <br>
+        
+        {% endif %}
+        
+        {% if result != "" %}
+        
+            Output:
+            {{result}}
+            <br>
+        
+        {% endif %}
+    
+    </main>
+
+{% endblock %}
+
+{% block footer %}
+
+    <p>
+        <a href = "{{ url_for('menu') }}"> Menu</a> <br>
+    </p>
+
+{% endblock %}

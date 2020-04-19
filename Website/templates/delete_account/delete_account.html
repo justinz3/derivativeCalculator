@@ -1,0 +1,24 @@
+{% extends "master.html" %}
+
+{% block title %} Delete Account {% endblock %}
+
+{% block body %}
+
+    <form action = "{{ url_for('delete_account') }}" method=post>
+        
+        Are you sure you want to delete your account?
+        <br>
+        
+        <button type = "submit"> Yes, I'm Sure </button>
+        
+    </form>
+
+{% endblock %}
+
+{% block footer %}
+
+    <a href = "{{ url_for('menu') }}"> Go back </a>
+
+    <br>
+
+{% endblock %}
